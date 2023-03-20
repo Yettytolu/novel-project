@@ -11,7 +11,6 @@ firstbutton.addEventListener("click", readNow);
 
 function startReading() {
   let username = prompt("What is your username?");
-  let pick = prompt("What novel are you reading?");
 
   alert("Welcome " + username + " , enjoy reading !");
 }
